@@ -1,0 +1,29 @@
+.col{
+    background-color: aqua;
+    width: 400px;
+    padding: 16px;
+}
+
+row{
+   background-color: blueviolet;
+   width: 400px;
+}    
+
+input{
+    padding: 6px;
+}
+
+button{
+    padding: 6px;
+    background-color: rgb(162, 162, 184);
+    color: wheat;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+    background-color: brown;
+}

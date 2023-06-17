@@ -1,0 +1,143 @@
+/* Estilos para el header */
+header {
+    background-color: #e6e6e6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bitter', serif;
+  }
+  
+  /* Estilos para el contenido principal */
+
+  body {
+font-family: 'Bitter', serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("FondoGeneral.PNG");
+  background-size: cover;
+  background-repeat: repeat;
+}
+  main {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Bitter', serif;
+  }
+
+  h2 {
+    font-size: 2em;
+    font-family: 'Bitter', serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Bitter', serif;
+  }
+  
+  li:before {
+    content: "•";
+    padding-right: 10px;
+    font-family: 'Bitter', serif;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    font-family: 'Bitter', serif;
+    background-color: #e0bee9;
+    color: #ab375d;
+    text-align: center;
+    padding: 10px;
+  }
+/* Estilos para el Mmenu Nav*/
+  nav ul {
+    font-family: 'Bitter', serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    font-family: 'Bitter', serif;
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-family: 'Bitter', serif;
+    color:#ab375d;
+    text-decoration: none;
+    font-weight: bold;
+
+  }
+  
+  nav a:hover {
+    font-family: 'Bitter', serif;
+    text-decoration: underline;
+  }
+/* Estilos para letras*/
+  p {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+/* clases dentro del main*/
+  .clase1 {
+    margin-bottom: 90px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    color: #bba5ae;
+    max-width: 800px;
+  }
+  
+  .clase2 {
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    color: #881f4b;
+    background-image: url("FondoSec1.PNG");
+    background-position: 1%;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    
+  }
+
+  .clase3 {
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    color:#881f4b;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+.col{
+    
+    padding: 16px;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    padding: 6px;
+}
+
+button{
+    padding: 6px;
+    background-color: #881f4b;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+    background-color:#bba5ae;
+}
